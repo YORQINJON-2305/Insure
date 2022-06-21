@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Header start */
+
+.header-top{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 31px 0px;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.header-list-item{
+    font-size: 13px;
+    color:#837D88;
+    margin-right: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-list-item:active{
+    color: #2C2830;
+    
+}
+
+.list-btn-text{
+    text-decoration: none;
+    padding: 13px 24px 13px 24px;
+    border: 1.5px solid #2C2830;
+    color: #2C2830;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 16px;
+}
+
+.list-btn-text:active{
+    background-color: #2C2830;
+    color: #fff;
+}
+
+ /* Banner section start */ 
+
+.banner-section{
+    width: 100%;
+    background: #2D2641;
+    padding-top: 105px;
+}
+
+.banner-item{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.banner-item-start-line{
+    width: 150px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.banner-title{
+    width: 540px;
+    color: #fff;
+}
+
+.banner-title-text{
+    font-size: 72px;
+    font-weight: 400;
+    margin: 0;
+    font-family: cursive;
+    padding-top: 63px;
+    line-height: 1;
+}
+
+.banner-text{
+    width: 540px;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.banner-btn{
+    text-decoration: none;
+    padding: 13px 24px 13px 24px;
+    border: 1.5px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.banner-btn:active{
+    background-color: #fff;
+    color: #2C2830;
+}
+
+.banner-item-end-img{
+    margin-bottom: -155px;
+}
+
+/* About section start */
+
+.about-section{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 305px;
+}
+
+.about-section-line{
+    width: 150px;
+    height: 1px;
+    background-color:#C396C6;
+}
+
+.about-section-title{
+    font-size: 72px;
+    color:#2C2830;
+    font-family: cursive;
+}
+
+.about-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+}
+
+.about-list-item-title{
+    font-size: 28px;
+    font-weight: 500;
+    color:#2C2830;
+}
+
+.about-list-item-text{
+    width: 350px;
+    color: #837D88;
+}
+
+/* Our work start */
+
+.our-work-section{
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color:#2D2641;
+    margin-top: 158px;
+   
+}
+
+.our-work-text-wrapper{
+    width: 500px;
+}
+
+.our-work-title{
+    font-size: 56px;
+    font-weight: 400;
+    color: #fff;
+    font-family: cursive;
+    line-height: 1;
+    margin: 0;
+}
+
+.our-work-btn{
+    width: 160px;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.our-work-btn:active{
+    background-color: #fff;
+    color: #2C2830;
+}
+
+/* Footer start */
+
+.footer-section{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding-top: 67px;
+}
+
+.footer-start{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-start-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-start-list-item{
+    margin-right: 16px;
+}
+
+.footer-seperator{
+    width: 100%;
+    height: 1px;
+    background-color: #DADADA;
+    margin: 36px 0px 48px 0px;
+}
+
+.footer-table{
+    padding-bottom: 64px;
+}
+
+.footer-table-th-start{
+    padding-bottom: 36px;
+    font-size: 13px;
+    color:#837D88;
+}
+
+.footer-table-th{
+   padding-bottom: 20px;
+    color:#837D88;
+    font-size: 13px;
+    padding-left: 250px;
+}
+
+.footer-table-td{
+    padding-top: 10px;
+    padding-left: 250px;
+    font-size: 13px;
+    font-weight: 650;
+    color: #2C2830;
+}
+
+.footer-table-td-start{
+    font-size: 13px;
+    font-weight: 650;
+    color: #2C2830;
+}
+
+.footer-table-td-between{
+    padding-left: 300px;
+    font-size: 13px;
+    color: #2C2830;
+    font-weight: 650;
+}
+
