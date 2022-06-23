@@ -11,6 +11,11 @@ body{
 
 /* Header start */
 
+.container{
+    width: 1480px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
 .header-top{
     width: 1440px;
     display: flex;
@@ -155,7 +160,7 @@ body{
 
 /* Our work start */
 
-.our-work-section{
+.our-work{
     width: 1440px;
     height: 250px;
     display: flex;
