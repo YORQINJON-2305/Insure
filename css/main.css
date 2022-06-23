@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -82,7 +84,7 @@ body{
     font-size: 72px;
     font-weight: 400;
     margin: 0;
-    font-family: cursive;
+    font-family: 'DM Serif Display', serif;
     padding-top: 63px;
     line-height: 1;
 }
@@ -129,7 +131,7 @@ body{
 .about-section-title{
     font-size: 72px;
     color:#2C2830;
-    font-family: cursive;
+    font-family: 'DM Serif Display', serif;
 }
 
 .about-list{
@@ -173,7 +175,7 @@ body{
     font-size: 56px;
     font-weight: 400;
     color: #fff;
-    font-family: cursive;
+    font-family: 'DM Serif Display', serif;
     line-height: 1;
     margin: 0;
 }
